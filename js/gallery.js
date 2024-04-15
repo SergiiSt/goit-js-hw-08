@@ -90,5 +90,4 @@ galleryEl.addEventListener("click", (event) => {
   event.preventDefault();
   const bigImage = event.target.parentElement.href;
   basicLightbox.create(`<img src="${bigImage}">`).show();
-  console.log(bigImage);
 });
