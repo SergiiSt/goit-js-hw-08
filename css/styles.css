@@ -14,9 +14,8 @@
   margin: 24px auto;
 }
 
-
 .gallery-item {
-  flex: 1 0 320px; 
+  flex: 1 0 320px;
   width: 360px;
   height: 200px;
   position: relative;
@@ -25,7 +24,7 @@
 }
 
 .gallery-image:hover {
-  transform: scale(1.03);
+  transform: scale(1.0445);
 }
 
 .gallery-image {
