@@ -88,6 +88,9 @@ function createGalleryItems(items) {
 
 galleryEl.addEventListener("click", (event) => {
   event.preventDefault();
+  if (event.target === galleryEl) {
+    return;
+  }
   const bigImage = event.target.parentElement.href;
   basicLightbox.create(`<img src="${bigImage}">`).show();
 });
